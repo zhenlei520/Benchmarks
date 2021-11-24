@@ -6,6 +6,7 @@ jobs:
       branchOrCommit: main
       project: Weather.API/Weather.API.csproj
     readyStateText: Application start 已启动.
+    waitForExit: false
 
   mvcServer:
     source:
