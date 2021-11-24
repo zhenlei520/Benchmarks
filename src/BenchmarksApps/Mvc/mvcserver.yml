@@ -4,8 +4,8 @@ jobs:
     source:
       repository: https://github.com/zhenlei520/Weather.API.git
       branchOrCommit: main
-      project: Weather.API/Weather.API.csproj
-    readyStateText: Application start 已启动.
+      project: WebApplication1/WebApplication1.csproj
+    readyStateText: Application start ................
     waitForExit: false
 
   mvcServer:
