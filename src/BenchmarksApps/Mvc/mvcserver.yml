@@ -1,4 +1,12 @@
 jobs:
+  
+  weatherService:
+    source:
+      repository: https://github.com/zhenlei520/Weather.API.git
+      branchOrCommit: main
+      project: Weather.API/Weather.API.csproj.csproj
+    readyStateText: Application started.
+
   mvcServer:
     source:
       repository: https://github.com/aspnet/benchmarks.git
