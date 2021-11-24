@@ -13,7 +13,7 @@ scenarios:
     # 得到天气
   ApiGetWeatherForecast:
     application:
-      job: mvcServer
+      job: weatherService
     load:
       job: bombardier
       variables:
